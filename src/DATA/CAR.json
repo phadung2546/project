@@ -1,0 +1,80 @@
+[
+    {
+        "id":"Car001",
+        "barnd": "Honda Accordv",
+        "model": "Prestige",
+        "type": "Automatic",
+        "year": "2022",
+        "door": "4 ประตู",
+        "person1":"5 คน",
+        "color":"white",
+        "imag": "https://budget.co.th/images/CarTypes/Budget_TH_Fleet_CCAR.png",
+        "priceDAY": 2000,
+        "province1" : "เชียงใหม่"
+    },
+    {
+        "id":"Car002",
+        "barnd": "Toyota Altis 1.6",
+        "model": "Compact",
+        "type": "Automatic",
+        "year": "2023",
+        "door": "4 ประตู",
+        "person1":"4 คน",
+        "color":"white",
+        "imag": "https://budget.co.th/images/CarTypes/Budget_TH_Fleet_CCAR.png",
+        "priceDAY": 1800,
+        "province1" : "ลำปาง"
+    },
+    {
+        "id":"Car003",
+        "barnd": "Isuzu Mu-x",
+        "model": "Prestige SUV",
+        "type": "Automatic",
+        "year": "2022",
+        "door": "4 ประตู",
+        "person1":"7 คน",
+        "color":"white",
+        "imag": "https://budget.co.th/images/CarTypes/Budget_TH_Fleet_PFAR.png",
+        "priceDAY": 660,
+        "province1" : "เชียงใหม่"
+    },
+    {
+        "id":"Car004",
+        "barnd": "Isuzu DmaxExtraCab",
+        "model": "Pick Up Truck",
+        "type": "Manual",
+        "year": "2022",
+        "door": "2 ประตู",
+        "person1":"2 คน",
+        "color":"grey-white",
+        "imag": "https://budget.co.th/images/CarTypes/Budget_TH_Fleet_CPMR.png",
+        "priceDAY": 660,
+        "province1" : "ลำปาง"
+    },
+    {
+        "id":"Car005",
+        "barnd": "Yaris ATIV",
+        "model": "Sport (Sport)",
+        "type": "Automatic",
+        "year": "2022",
+        "door": "4 ประตู",
+        "person1":"5 คน",
+        "color":"RED",
+        "imag": "https://www.kinto-th.com/_image.aspx/kbvbsq4BNI2G22r7iDwusa2rl6irYYJFxa0TnLCLhyA=/All_New_Yaris_ATIV_Sport_Spicy_Scarlet.png2566",
+        "priceDAY": 1800,
+        "province1" : "เชียงใหม่"
+    },
+    {
+        "id":"Car005",
+        "barnd": "C-HR HV",
+        "model": "Premium Safety",
+        "type": "Automatic",
+        "year": "2022",
+        "door": "4 ประตู",
+        "person1":"5 คน",
+        "color":"BLACK",
+        "imag": "https://www.kinto-th.com/_image.aspx/kbvbsq4BNI2G22r7iDwusTUzO-zVgi2YS5AG-9zEd9A=/C-HR_black-01.png21922525",
+        "priceDAY": 2200,
+        "province1" : "เชียงใหม่"
+    }
+]
