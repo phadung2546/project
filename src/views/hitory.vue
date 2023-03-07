@@ -28,7 +28,7 @@
                       label="โปรดระบุ e-mail ผู้จอง"
                       variant="outlined"
                       hide-details="auto"
-                      v-model="name"
+                      v-model="email"
                       color="balck"
                       required
                     ></v-text-field>
@@ -229,7 +229,7 @@ const DATA_RENTAL = ref({
 
 const allcar = ref([]);
 const items1 = ref(["พะเยา", "เชียงใหม่", "เชียงราย", "ลำพูน", "ลำปาง", "แพร่"]);
-const name = ref("");
+const email = ref("");
 const datat = ref();
 const dialog1 = ref(false);
 
@@ -258,7 +258,7 @@ async function deleteMenu(data1, bool) {
 }
 
 async function check() {
-  const q = query(collection(db, "DRIVECAR"), where("email", "==", name.value));
+  const q = query(collection(db, "DRIVECAR"), where("email", "==", email.value));
   if (q) {
     const querySnapshot = await getDocs(q);
     querySnapshot.forEach((doc) => {

@@ -6,7 +6,7 @@ import hitory from "../views/hitory.vue"
 import car from "../views/Car.vue"
 import contact1 from"../views/contact.vue"
 import profile from '../views/profile.vue'
-import reset from '../views/forget.vue'
+
 
 
 
@@ -49,11 +49,7 @@ const router = createRouter({
       name: 'profile',
       component: profile
     },
-    {
-      path: '/reset',
-      name: 'reset',
-      component: reset
-    },
+  
    
    
     
